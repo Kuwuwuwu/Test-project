@@ -9,7 +9,7 @@ body {
 
 /* Заголовок */
 h1 {
-    color: darkslategrey;
+    color: rgb(124, 252, 0);
     text-align: center;
     transition-property: opacity, transform;
     font-size: 50px;
