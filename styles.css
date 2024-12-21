@@ -1,0 +1,123 @@
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Заголовок */
+h1 {
+    color: darkslategrey;
+    text-align: center;
+    transition-property: opacity, transform;
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 20px 0;
+}
+
+/* Заголовки розділів */
+h2 {
+    color: rgb(47, 47, 47);
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+/* Контейнер для контенту */
+.container {
+    background-color: antiquewhite;
+    width: 930px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для секцій */
+section.inform {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Стилі для картинок */
+img.displayed {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для списків */
+ul {
+    color: rgb(47, 47, 47);
+    font-size: 15px;
+    text-align: left;
+    padding: 0;
+    list-style-type: circle;
+}
+
+/* Стилі для силок*/
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Форма */
+.form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"],
+button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #45a049;
+}
