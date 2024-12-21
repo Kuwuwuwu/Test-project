@@ -19,11 +19,15 @@ h1 {
 
 /* Заголовки розділів */
 h2 {
-    color: rgb(47, 47, 47);
+    color: rgb(14, 68, 54);
     font-size: 25px;
     font-weight: 800;
-    margin: 20px 0;
+    margin: 20px;
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
 }
+
 
 /* Контейнер для контенту */
 .container {
