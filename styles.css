@@ -23,9 +23,9 @@ h2 {
     font-size: 25px;
     font-weight: 800;
     margin: 20px;
-  font-family: "Fira Sans", serif;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -61,6 +61,9 @@ ul {
     text-align: left;
     padding: 0;
     list-style-type: circle;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* Стилі для силок*/
